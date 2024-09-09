@@ -76,8 +76,8 @@ const cannonHeight = 80;
 let projectiles = [];
 const defaultProjectileWidth = 24;
 const defaultProjectileHeight = defaultProjectileWidth;
-const collectableWidth = 40;
-const collectableHeight = 40;
+const collectableWidth = 100;
+const collectableHeight = 100;
 let collectables = [];
 
 // canvas and context variables; must be initialized later
@@ -91,10 +91,10 @@ let halleImage;
 let animationDetails = {};
 
 var collectableList = {
-  database: { image: "images/collectables/database.png" },
+  database: { image: "https://piskel-imgstore-b.appspot.com/img/c9cbee42-6eac-11ef-98c6-25a231f927c0.gif" },
   diamond: { image: "images/collectables/diamond-head.png" },
   grace: { image: "images/collectables/grace-head.png" },
-  kennedi: { image: "images/collectables/kennedi-head.png" },
-  max: { image: "images/collectables/max-head.png" },
+  kennedi: { image: "https://piskel-imgstore-b.appspot.com/img/77a6b4ba-6eae-11ef-97f8-25a231f927c0.gif" },
+  max: { image: "https://piskel-imgstore-b.appspot.com/img/44eea738-6ead-11ef-aa8f-25a231f927c0.gif" },
   steve: { image: "images/collectables/steve-head.png" },
 };
